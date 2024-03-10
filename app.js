@@ -8,21 +8,23 @@
 // let quary = document.querySelectorAll(".add")
 
 let body = document.querySelector("body");
-console.log(body.classList.contains("add"))
+// console.log(body.classList.contains("add"))
 
 
-setInterval(() => {
-  if(body.classList.contains("dark")){
-    body.classList.remove("dark");
-  }else{
-    body.classList.add("dark")
-  }
-}, 1000);
+// setInterval(() => {
+//   // if(body.classList.contains("dark")){
+//   //   body.classList.remove("dark");
+//   // }else{
+//   //   body.classList.add("dark")
+//   // }
+// }, 1000);
 
+// ////////////////////////ikalasi bir xil ishlidi \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
 
-
-
-
+// setInterval(() => {
+//   body.classList.toggle("dark");
+  
+// }, 1000);
 
 
 
