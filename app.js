@@ -6,8 +6,10 @@
 // let getname = document.getElementsByName("street")
 // let quary = document.querySelector(".add")
 // let quary = document.querySelectorAll(".add")
+//  btn.style.color = "red";
+//  btn.style.backgroundColor = "black"
 
-let body = document.querySelector("body");
+// let body = document.querySelector("body");
 // console.log(body.classList.contains("add"))
 
 
@@ -26,9 +28,17 @@ let body = document.querySelector("body");
   
 // }, 1000);
 
+////////////////////////// Reading Content\\\\\\\\\\\\\\\\\
+
+let h1 = document.querySelector("h1");
+let p = document.querySelector("p");
+
+// console.log(h1.innerText);      => elementni textini olib kevotii
+// console.log(p.innerText);        => elementni textini olib kevotii
+// console.log(h1.textContent);     => Orasidan prabellar bilan olib keladi
+// console.log(p.textContent);      => Orasidan prabellar bilan olib keladi
+// console.log(h1.innerHTML);      => html taglari bn olib keladi
+// console.log(p.innerHTML);        => html taglari bn olib keladi
 
 
 
-
-//  btn.style.color = "red";
-//  btn.style.backgroundColor = "black"
