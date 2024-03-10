@@ -30,8 +30,8 @@
 
 ////////////////////////// Reading Content\\\\\\\\\\\\\\\\\
 
-let h1 = document.querySelector("h1");
-let p = document.querySelector("p");
+// let h1 = document.querySelector("h1");
+// let p = document.querySelector("p");
 
 // console.log(h1.innerText);      => elementni textini olib kevotii
 // console.log(p.innerText);        => elementni textini olib kevotii
@@ -40,5 +40,25 @@ let p = document.querySelector("p");
 // console.log(h1.innerHTML);      => html taglari bn olib keladi
 // console.log(p.innerHTML);        => html taglari bn olib keladi
 
+/////////////////// filterlash \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+
+let Users = [
+  { Id : 1 , Name : "Husan",Age : 23 ,price :100  },
+  { Id : 2 , Name : "Majid",Age : 43,price :400  },
+  { Id : 3 , Name : "Odil",Age : 53,price :200  },
+];
+// let FilterUsers = Users.filter((User) => User.Age > 43); Filterlab olish 
+
+// let Username = Users.map((user) => {return user.Name}); map qlish 
+
+// let total = Users.reduce((prev, item  ,index, arr) => prev +item.price,0); => total yengndni qoshb beradi
+
+// let find = Users.find((item , index, arr) => item.Id === 2);  =>  bergan narsamizni topb  ozini qaytaradi 
 
 
+
+// console.log(Users); 
+// console.log(FilterUsers); 
+// console.log(Username); 
+// console.log(total);
+// console.log(find); 
