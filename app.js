@@ -6,9 +6,18 @@
 // let getname = document.getElementsByName("street")
 // let quary = document.querySelector(".add")
 // let quary = document.querySelectorAll(".add")
-console.log( quary)
+
+let body = document.querySelector("body");
+console.log(body.classList.contains("add"))
 
 
+setInterval(() => {
+  if(body.classList.contains("dark")){
+    body.classList.remove("dark");
+  }else{
+    body.classList.add("dark")
+  }
+}, 1000);
 
 
 

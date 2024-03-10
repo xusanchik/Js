@@ -1,6 +1,6 @@
 body {
   background: #fff;
-  &.add{
+  &.dark{
     background: black;
   }
   }
