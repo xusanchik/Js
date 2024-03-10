@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.bakal {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+  padding: 2rem;
+}
+.bakal p {
+  background-color: white;
+}
